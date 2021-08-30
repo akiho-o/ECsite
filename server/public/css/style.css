@@ -1,0 +1,58 @@
+/* 共通部分
+------------------- */
+
+html {
+    font-size: 100%;
+}
+/* 共通部分
+------------------- */
+
+header {
+    font-family: 'PT Serif', serif;
+}
+
+
+/* ヘッダー
+------------------- */
+.brand {
+    color:#363939;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px; }
+
+.site-header {
+    position: relative;
+    background-color: #f1f1f1; }
+
+.site-header__wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+
+@media (min-width: 600px) {
+    .site-header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0; } }
+@media (min-width: 600px) {
+    .nav__wrapper {
+        display: flex; 
+        list-style: none;} }
+
+.nav__item a {
+    color: #4F4F4F;
+    display: block;
+    text-decoration: none;
+    padding: 1.5rem 1rem; }
+
+.nav__toggle {
+    display: none; }
+
+    @media (max-width: 599px) {
+    .nav__toggle {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem; } }
